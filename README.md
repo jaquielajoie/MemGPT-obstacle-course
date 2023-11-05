@@ -30,9 +30,9 @@ While this can be done with gpt-3.5-turbo, better results are achieved with gpt-
 - I am working to fix this issue
 2. Launch the server on http://localhost:8000
 3. Give MemGPT-hacked the following prompts:
-    ```make an http post request to http://localhost:8000/auth/register/ with a payload of username=abc123 password=abc123```
-    ```make an http post request to http://localhost:8000/auth/login/ with a payload of username=abc123 password=abc123```
-    ```format the bearer token```
-    ```make an http post request to http://localhost:8000/chatbot/ with a payload of text=what is a sprained ankle with the bearer token in the appropriate argument```
+    ```make an http post request to http://localhost:8000/auth/register/ with a payload of username=abc123 password=abc123```  
+    ```make an http post request to http://localhost:8000/auth/login/ with a payload of username=abc123 password=abc123```   
+    ```format the bearer token```  
+    ```make an http post request to http://localhost:8000/chatbot/ with a payload of text=what is a sprained ankle with the bearer token in the appropriate argument```  
 
 In my tests, MemGPT with GPT-4 was able to catch the mistakes made by the bad doctor bot. 
